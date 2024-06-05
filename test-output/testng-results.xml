@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-04T07:57:22Z" name="Default suite" finished-at="2024-06-04T07:57:26Z" duration-ms="3947">
+  <suite started-at="2024-06-05T10:33:01Z" name="Default suite" finished-at="2024-06-05T10:33:12Z" duration-ms="10910">
     <groups>
     </groups>
-    <test started-at="2024-06-04T07:57:22Z" name="Default test" finished-at="2024-06-04T07:57:26Z" duration-ms="3947">
+    <test started-at="2024-06-05T10:33:01Z" name="Default test" finished-at="2024-06-05T10:33:12Z" duration-ms="10910">
       <class name="loginTest.LoginTest2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:loginTest.LoginTest2@1583741e]" started-at="2024-06-04T13:27:22Z" name="setup" finished-at="2024-06-04T13:27:26Z" duration-ms="3524" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:loginTest.LoginTest2@1583741e]" started-at="2024-06-05T16:03:01Z" name="setup" finished-at="2024-06-05T16:03:10Z" duration-ms="9431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:loginTest.LoginTest2@1583741e]" started-at="2024-06-04T13:27:26Z" name="login" finished-at="2024-06-04T13:27:26Z" duration-ms="401" status="PASS">
+        <test-method signature="login()[pri:0, instance:loginTest.LoginTest2@1583741e]" started-at="2024-06-05T16:03:10Z" name="login" finished-at="2024-06-05T16:03:12Z" duration-ms="1427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

@@ -16,9 +16,14 @@ public class BaseClassTest {
 
 	}
 
-	public void goToURL() {
+	public void goToFaceBookURL() {
 		driver.get("https://www.facebook.com");
 	}
+	
+	public void goToSBURL() {
+		driver.get("http://139.84.162.246:8080/login/auth");
+	}
+
 
 	public static WebDriver setup() {
 		WebDriverManager.chromedriver().setup();
@@ -26,5 +31,7 @@ public class BaseClassTest {
 		driver.manage().window().maximize();
 		return driver;
 	}
+	
+	
 
 }

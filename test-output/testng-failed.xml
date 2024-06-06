@@ -5,6 +5,7 @@
     <classes>
       <class name="loginTest.LoginTest2">
         <methods>
+          <include name="setup"/>
           <include name="login"/>
         </methods>
       </class> <!-- loginTest.LoginTest2 -->

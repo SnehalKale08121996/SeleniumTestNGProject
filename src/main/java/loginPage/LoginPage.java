@@ -3,6 +3,7 @@ package loginPage;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,6 +60,42 @@ public class LoginPage extends BaseClassTest {
 	 */
 	public void clickOnLoginButton() {
 		clickOnLoginButton.click();
+	}
+
+	@FindBy(how = How.NAME, using = "j_username")
+	WebElement enterSBUserId;
+
+	/**
+	 * Method to enter login ID
+	 * 
+	 * @throws IOException
+	 */
+	public void enterSBUserId(String userId) {
+		enterSBUserId.sendKeys(userId);
+	}
+
+	@FindBy(how = How.NAME, using = "j_password")
+	WebElement sbpassword;
+
+	/**
+	 * Method to enter Password
+	 * 
+	 * @throws IOException
+	 */
+	public void entersbpassword(String pass) {
+		sbpassword.sendKeys(pass);
+	}
+
+	@FindBy(how = How.XPATH, using = "//a[@class='submit save']")
+	WebElement clickOnSBLoginButton;
+
+	/**
+	 * Method to click on login Button
+	 * 
+	 * @throws IOException
+	 */
+	public void clickOnSBLoginButton() {
+		clickOnSBLoginButton.click();
 	}
 
 }

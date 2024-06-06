@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import basePage.BaseClassTest;
 import loginPage.LoginPage;
 
-public class LoginTest2 {
+public class FacebookLoginTest {
 	LoginPage loginPage;
 	WebDriver driver;
 
@@ -15,7 +15,7 @@ public class LoginTest2 {
 	public void setup() {
 		driver = BaseClassTest.setup();
 		loginPage = new LoginPage(driver);
-		loginPage.goToURL();
+		loginPage.goToFaceBookURL();
 	}
 
 	@Test
